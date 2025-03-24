@@ -8,7 +8,7 @@ import LongTermPage from '../pages/LongTermPage.js';
 import MedicareAdvantagepage from '../pages/MedicarePage.js';
 import PharmacyPage from '../pages/PharmacyPage.js';
 import PlanSelectionSupplement from '../pages/PlanSelectionSupplementPage.js';
-describe("Automation of test cases for PlanSelection Page",()=>{
+describe("Automation of test cases for PlanSelection Suppliment Page",()=>{
     const planselectionpage= new planselectionPage();
 const PlanSelectionSupplementPage= new PlanSelectionSupplement(); 
     beforeEach("Login to PlanSelectionPage",()=>{
@@ -232,7 +232,6 @@ it("Test9:To verify Other Benefits expands and collapse",()=>{
     cy.url().should("eq","http://169.61.105.110/medicareAdvantage_sandbox/manage-pharmacies");
 
 })
-
 
 
 })
